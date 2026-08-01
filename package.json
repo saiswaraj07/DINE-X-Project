@@ -1,0 +1,16 @@
+{
+  "name": "dinex-restaurant-site",
+  "version": "1.0.0",
+  "description": "Local full-stack restaurant website using Node, Express, MySQL, and static HTML/CSS/JS.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.3"
+  }
+}

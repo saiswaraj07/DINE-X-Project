@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Buddy's cafe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section>
+        <nav>
+            <div class="logo">
+                <span>Dine</span>
+                <p>X</p>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="admin-login.html">Admin Login</a></li>
+            </ul>
+            <div class="icon"></div>
+        </nav>
+
+        <div class="admin_page">
+            <div class="admin_dashboard">
+                <div class="admin_dashboard_header">
+                    <h1>Admin Order Review</h1>
+                    <div>
+                        <label for="statusFilter" class="admin_filter_label">Filter:</label>
+                        <select id="statusFilter" class="admin_filter_select">
+                            <option value="ALL">All</option>
+                            <option value="PLACED">Placed</option>
+                            <option value="UNDER_PROCESS">Under Process</option>
+                            <option value="COMPLETED">Completed</option>
+                        </select>
+                        <button id="refreshRecords" class="order_btn admin_btn">Refresh</button>
+                        <button id="adminLogout" class="order_btn admin_btn danger">Logout</button>
+                    </div>
+                </div>
+                <p class="admin_note">All delivery, takeaway, and dine-in booking entries appear here.</p>
+                <div id="adminRecords" class="admin_records"></div>
+            </div>
+        </div>
+    </section>
+    <script src="js/admin.js"></script>
+</body>
+
+</html>

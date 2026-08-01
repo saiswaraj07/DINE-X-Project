@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login - Buddy's cafe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section>
+        <nav>
+            <div class="logo">
+                <span>Dine</span>
+                <p>X</p>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+            </ul>
+            <div class="icon"></div>
+        </nav>
+
+        <div class="admin_page">
+            <div class="admin_card">
+                <h1>Admin Login</h1>
+                <p class="admin_note">Use your admin user ID and password to review customer orders.</p>
+                <form id="adminLoginForm" class="admin_form">
+                    <label for="adminUserId">User ID</label>
+                    <input id="adminUserId" name="userId" type="text" required>
+
+                    <label for="adminPassword">Password</label>
+                    <input id="adminPassword" name="password" type="password" required>
+
+                    <button type="submit" class="order_btn admin_btn">Login</button>
+                    <p id="adminLoginMessage" class="form_message"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="js/admin.js"></script>
+</body>
+
+</html>

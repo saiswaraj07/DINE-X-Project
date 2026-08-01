@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buddy's cafe</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <section>
+    <nav>
+      <div class="logo">
+        <span>Dine</span>
+        <p>X</p>
+      </div>
+
+      <ul>
+        <li><a href="index.html" target="_blank">Home</a></li>
+        <li><a href="index.html" target="_blank">About</a></li>
+        <li><a href="menu.html" target="_blank">Menu</a></li>
+        <li><a href="gallary.html" target="_blank">Gallery</a></li>
+        <li><a href="#Review">Review</a></li>
+        <li><a href="order.html" target="_blank">Order</a></li>
+      </ul>
+
+      <div class="icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+
+
+    </nav>
+
+
+    <div class="review">
+      <div class="review_form_wrap">
+        <h2>Share Your Review</h2>
+        <form id="reviewForm" class="review_form">
+          <input type="text" name="name" placeholder="Your name" required>
+          <select name="rating" required>
+            <option value="">Select rating</option>
+            <option value="5">5 - Excellent</option>
+            <option value="4">4 - Very Good</option>
+            <option value="3">3 - Good</option>
+            <option value="2">2 - Average</option>
+            <option value="1">1 - Poor</option>
+          </select>
+          <textarea name="comment" rows="4" placeholder="Write your review" required></textarea>
+          <button type="submit" class="order_btn">Submit Review</button>
+          <p class="form_message" id="reviewMessage"></p>
+        </form>
+      </div>
+
+      <h1>customer<span>Review</span></h1>
+
+      <div class="review_box">
+        <div class="review_card">
+
+          <div class="review_profile">
+            <img src="images/review1.jpg" alt="">
+          </div>
+
+          <div class="review_text">
+            <h2 class="name">Himansu</h2>
+            <div class="review_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="review_social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <p>
+              A hidden gem! From the warm welcome to the exquisite dishes, everything exceeded expectations. Portions
+              were generous, ingredients fresh, and desserts divine. Perfect spot for a relaxed meal with friends or
+              loved ones
+            </p>
+
+          </div>
+        </div>
+        <div class="review_card">
+
+          <div class="review_profile">
+            <img src="images/review2.jpg" alt="">
+          </div>
+
+          <div class="review_text">
+            <h2 class="name">Priyanka</h2>
+            <div class="review_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="review_social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <p>
+              Absolutely loved it! The menu offered variety, flavors were authentic, and presentation impressive. Staff
+              were friendly and attentive without being intrusive. Perfect balance of taste, comfort, and atmosphere.
+              Will definitely return soon
+            </p>
+
+          </div>
+        </div>
+        <div class="review_card">
+
+          <div class="review_profile">
+            <img src="images/review3.jpg" alt="">
+          </div>
+
+          <div class="review_text">
+            <h2 class="name">Prakash</h2>
+            <div class="review_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="review_social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <p>
+              Incredible dining experience! The flavors were perfectly balanced, service attentive, and ambiance
+              cozy. Every dish felt fresh and thoughtfully prepared. Highly recommend for family dinners, casual
+              outings, or special celebrations. Truly memorable!
+            </p>
+
+          </div>
+        </div>
+        <div class="review_card">
+
+          <div class="review_profile">
+            <img src="images/review4.jpg" alt="">
+          </div>
+
+          <div class="review_text">
+            <h2 class="name">lopamudra</h2>
+            <div class="review_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <div class="review_social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <p>
+              Fantastic experience! The restaurant combines excellent food, stylish ambiance, and attentive service.
+              Each dish was flavorful and well-presented. Perfect for date nights, family gatherings, or casual lunches.
+              Truly a culinary delight
+            </p>
+
+          </div>
+        </div>
+        <div class="review_card">
+
+          <div class="review_profile">
+            <img src="images/review5.jpg" alt="">
+          </div>
+
+          <div class="review_text">
+            <h2 class="name">Rishi</h2>
+            <div class="review_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <div class="review_social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <p>
+              The food here is outstanding! Fresh, flavorful, and beautifully presented. Staff were polite and
+              professional. Ambiance is inviting, making it ideal for both quick bites and long, leisurely meals. Highly
+              recommended.
+            </p>
+
+          </div>
+        </div>
+        <div class="review_card">
+
+          <div class="review_profile">
+            <img src="images/review6.jpg" alt="">
+          </div>
+
+          <div class="review_text">
+            <h2 class="name">Ritik</h2>
+            <div class="review_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="review_social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <p>
+              Delicious, fresh, and satisfying! The menu had a great selection, everything tasted homemade. Service was
+              friendly, atmosphere cozy. A wonderful place to enjoy meals, celebrate occasions, or simply relax with
+              loved ones.
+            </p>
+
+          </div>
+        </div>
+        <div class="review_card">
+
+          <div class="review_profile">
+            <img src="images/review7.jpg" alt="">
+          </div>
+
+          <div class="review_text">
+            <h2 class="name">Saswat</h2>
+            <div class="review_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <div class="review_social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <p>
+              Impressive from start to finish! The food was flavorful, portioned well, and beautifully plated. Service
+              was prompt and courteous. Ambiance is warm and welcoming. Definitely worth visiting for any food lover.
+            </p>
+
+          </div>
+        </div>
+        <div class="review_card">
+
+          <div class="review_profile">
+            <img src="images/review8.jpg" alt="">
+          </div>
+
+          <div class="review_text">
+            <h2 class="name">Rutuparna</h2>
+            <div class="review_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="review_social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <p>
+              Wonderful dining spot! Every dish was cooked to perfection, ingredients fresh, and flavors balanced. Staff
+              attentive, atmosphere charming. Great for casual meals, family dinners, or special nights out. Highly
+              recommend trying their specialties.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <h1>Latest<span>Reviews</span></h1>
+      <div class="review_box" id="latestReviews"></div>
+    </div>
+
+
+
+
+    <footer>
+      <div class="footer_main">
+        <div class="footer_tag">
+          <h2>Location</h2>
+          <p>Patia</p>
+          <p>Rajmahal</p>
+          <p>Patrapada</p>
+        </div>
+        <div class="footer_tag">
+          <h2>Quick Links</h2>
+          <p>Home</p>
+          <p>About</p>
+          <p>Menu</p>
+          <p>Gallary</p>
+          <p>Order</p>
+        </div>
+        <div class="footer_tag">
+          <h2>Contact</h2>
+          <p>+91-77350XXXXX</p>
+          <p>+91-70771XXXXX</p>
+        </div>
+        <div class="footer_tag">
+          <h2>Our Service</h2>
+          <p>Fast Delivery</p>
+          <p>24 x 7 services</p>
+          <p>Easy Payments</p>
+        </div>
+        <div class="footer_tag">
+          <h2>Follow Us</h2>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+
+
+    </footer>
+
+  </section>
+  <script src="js/config.js"></script>
+  <script src="js/reviews.js"></script>
+</body>
+
+</html>
